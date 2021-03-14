@@ -46,7 +46,7 @@ const calculator = (state = initialAppState, action) => {
           ...state,
           inputValue: 0,
           operator: "-",
-          resultValue: state.resultValue - state.inputValue, // 前回の入力値に今回の入力値をプラスする
+          resultValue: state.resultValue - state.inputValue,
           showingResult: true,
         };
       } else {
@@ -68,7 +68,7 @@ const calculator = (state = initialAppState, action) => {
           ...state,
           inputValue: 0,
           operator: "*",
-          resultValue: state.resultValue * state.inputValue, // 前回の入力値に今回の入力値をプラスする
+          resultValue: state.resultValue * state.inputValue,
           showingResult: true,
         };
       } else {
@@ -90,7 +90,7 @@ const calculator = (state = initialAppState, action) => {
           ...state,
           inputValue: 0,
           operator: "/",
-          resultValue: state.resultValue / state.inputValue, // 前回の入力値に今回の入力値をプラスする
+          resultValue: state.resultValue / state.inputValue,
           showingResult: true,
         };
       } else {
