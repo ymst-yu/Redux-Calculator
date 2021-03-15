@@ -34,6 +34,9 @@
       &:hover {
         background: #999;
       }
+      &:focus {
+        outline: none;
+      }
     }
 
     .operator {
